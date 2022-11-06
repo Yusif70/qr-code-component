@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+    .attribution { font-size: 11px; text-align: center;}
+    .attribution h1 { color: hsl(228, 45%, 44%); }
+    body{
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'outfit';
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    main{
+      background-color: hsl(0, 0%, 100%);
+      width:300px;
+      margin-bottom: 50px;
+      padding:15px 15px 16px 15px;
+      border-radius: 20px;
+      box-shadow: 1px 10px 10px rgb(177, 177, 177);
+    }
+    img{
+      border-radius: 10px;
+      width: 100%;
+    }
+    .container{
+      width:inherit;
+      text-align: center;
+      margin-top:25px;
+    }
+    h1{
+      color:hsl(218, 44%, 22%);
+      margin-inline:0px;
+      padding-inline:10px;
+      font-size: 1.4em;
+    }
+    p{
+      color:hsl(220, 15%, 55%);
+      padding-inline:15px;
+      margin-block:20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="images/image-qr-code.png" alt="">
+    <div class="container">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Yusif70">Yusif70</a>.
+  </div>
+</body>
+</html>
